@@ -4,7 +4,7 @@ body {
 }
 .gridcontenedor {
     display: grid;
-    grid-template-columns: 150px auto 150px;
+    grid-template-columns: 15% auto 15%;
     grid-gap: 1em;
     header, footer {
         grid-column: 1/4;
@@ -21,5 +21,5 @@ header, aside, article, footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25vh;
+    min-height: 25vh;
 }
